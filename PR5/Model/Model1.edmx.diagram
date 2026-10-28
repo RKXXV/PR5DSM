@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e0130e90a9e64122b476bf2a7ccae203" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="SoftForgeDBModel.Client" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SoftForgeDBModel.Contracts" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SoftForgeDBModel.EmloyeInPosition" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SoftForgeDBModel.Employe" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SoftForgeDBModel.Position" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SoftForgeDBModel.Project" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SoftForgeDBModel.ProjectInEmploye" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SoftForgeDBModel.Status" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SoftForgeDBModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SoftForgeDBModel.User" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="SoftForgeDBModel.FK__Contracts__Clien__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="SoftForgeDBModel.FK__User__ClientId__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="SoftForgeDBModel.FK__Contracts__Proje__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="SoftForgeDBModel.FK__Project__StatusI__412EB0B6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
